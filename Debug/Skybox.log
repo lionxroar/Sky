@@ -1,0 +1,33 @@
+﻿Build started 12/11/2014 2:56:39 AM.
+     1>Project "E:\Github\Sky\Skybox.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /I"C:\glut\glut-3.7.6-bin" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bezier.cpp Camera.cpp main.cpp Matrix4.cpp Vector3.cpp Vector4.cpp
+         Vector4.cpp
+     1>e:\github\sky\vector4.cpp(29): warning C4172: returning address of local variable or temporary
+     1>e:\github\sky\vector4.cpp(40): warning C4172: returning address of local variable or temporary
+         Vector3.cpp
+     1>e:\github\sky\vector3.cpp(29): warning C4172: returning address of local variable or temporary
+     1>e:\github\sky\vector3.cpp(41): warning C4172: returning address of local variable or temporary
+     1>e:\github\sky\vector3.cpp(51): warning C4172: returning address of local variable or temporary
+     1>e:\github\sky\vector3.cpp(80): warning C4172: returning address of local variable or temporary
+     1>e:\github\sky\vector3.cpp(107): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\github\sky\vector3.cpp(116): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         Matrix4.cpp
+     1>e:\github\sky\matrix4.cpp(106): warning C4172: returning address of local variable or temporary
+         main.cpp
+         Camera.cpp
+         Bezier.cpp
+         Generating Code...
+       Link:
+         E:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Github\Sky\Debug\Skybox.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\glut\glut-3.7.6-bin" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Github\Sky\Debug\Skybox.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Github\Sky\Debug\Skybox.lib" /MACHINE:X86 Debug\Bezier.obj
+         Debug\Camera.obj
+         Debug\main.obj
+         Debug\Matrix4.obj
+         Debug\Vector3.obj
+         Debug\Vector4.obj
+         Skybox.vcxproj -> E:\Github\Sky\Debug\Skybox.exe
+     1>Done Building Project "E:\Github\Sky\Skybox.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.88
